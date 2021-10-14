@@ -1,5 +1,11 @@
+import AddUser from "./Users/AddUser";
+
 const App = () => {
-	return <div></div>;
+	return (
+		<div>
+			<AddUser></AddUser>
+		</div>
+	);
 };
 
 export default App;
